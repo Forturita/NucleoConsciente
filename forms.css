@@ -1,0 +1,171 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+/*menú*/
+
+.box{
+	padding-top: 0.5%;
+	margin: 0 auto;
+	width:90%;
+	height: 100px;
+}
+
+.menu{
+	margin: auto;
+	float: left;
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	justify-content: center;
+	width: 100%;
+	float: left;
+	padding: 1px;
+	}
+
+
+.menu .desplega {
+    width: 960px;
+    padding-top: 1.3%;
+    margin-right: 30px;
+    margin-left: 30px;
+	}
+
+.menu .desplega > li {
+	width: 220px;
+	float: left;
+	list-style-image: none;
+	list-style-type: none;
+	margin-right: 13px;
+	
+	}
+.desplega li ul {
+	width: 220px;
+	padding-left: 1px;
+	margin-top: 1px;
+	position: absolute;
+	list-style-image: none;
+	list-style-type: none;
+	display: none;
+	}
+.desplega li:hover > ul {
+	display: block;
+	}
+.desplega li a {
+	padding: 5px;
+	padding-top: 4px;
+	margin-top: 3px;
+	display: block;
+	color: black;
+	font-family: "Arial",sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 23px;	
+	background-color: white;
+	border: 2px solid #494949;
+	border-radius: 15px;
+	text-align: center;
+	text-decoration: none;
+	}
+.desplega li a:hover{
+	color: black;
+	background-color: #00ffaa;
+	border: 2px solid #494949;
+	}
+li ul li {
+	position: relative;
+	}
+li ul li ul {
+	right: -220px;
+	top: 0px;
+	}
+/*fin menu*/
+
+.unete{
+	margin: auto;
+	padding-top: 40px;
+	padding-right: 1%;
+  	padding-left: 1%;
+  	width: 80%;
+  	display: flex; 
+  	flex-wrap: wrap;
+  	flex-direction: column;
+  	justify-content: center;
+  	align-content: center;
+  	align-items: center;
+  	font-family: 'Arial',sans-serif;
+  	text-align: center;
+  	font-size: 24px;
+	}
+
+.apoyo{
+	margin: auto;
+	padding-top: 40px;
+	padding-right: 1%;
+  	padding-left: 1%;
+  	width: 80%;
+  	display: flex; 
+  	flex-wrap: wrap;
+  	flex-direction: column;
+  	justify-content: center;
+  	align-content: center;
+  	align-items: center;
+  	font-family: 'Arial',sans-serif;
+  	text-align: center;
+  	font-size: 24px;
+	}
+
+
+#apo{
+	padding-top: 35px;
+	font-size: 35px;
+	text-align: center;
+	font-family: "airal", sans-serif;
+	}
+
+/*Registros*/
+
+.form-register{
+width: 400px;
+background: #fff;
+padding: 30px;
+margin: auto;
+margin-top:60px;
+border-radius: 4px;
+font-family: 'Arial',sans-serif;
+color:white;
+box-shadow: 7px 13px 37px #000;
+}
+
+.form-register h2{
+font-size: 22px
+margin-bottom: 20px;
+color:black;
+text-align: center;
+}
+
+.controls{
+width: 100%;
+background: #fff;
+padding: 10px;
+border-radius: 4px;
+margin-bottom: 16px;
+border: 1px solid #00FFAA;
+font-family: 'Arial',sans-serif;
+font-size: 18px;
+}
+
+.form-register .botons{
+width: 100%;
+background: #00FFAA;
+border:none;
+padding: 12px;
+color: white;
+margin: 16px 0;
+font-size: 16px;
+}
+
+/*Fin Registros*/
+
+
